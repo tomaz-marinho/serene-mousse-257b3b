@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+inicio {
+       background: linear-gradient(rgba(234, 242, 248, 0.85), rgba(234, 242, 248, 0.5)), 
+                url('/imagem/imagem1.jpeg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.faixa {
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 34px;
+    color: #184f7a;
+    margin-bottom: 18px;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666666;
+}
+
+
+.cabecalho {
+    background-color: #184f7a;
+    color: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo h1 {
+    font-size: 26px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+.inicio {
+    min-height: 520px;
+    background-color: #dbeaf4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.inicio-conteudo {
+    max-width: 800px;
+}
+
+.destaque {
+    color: #e98b18;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inicio h2 {
+    font-size: 48px;
+}
+
+.inicio p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 28px;
+    background-color: #e98b18;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+
+.empresa {
+    background-color: #ffffff;
+}
+
+.empresa .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.empresa-texto {
+    flex: 1;
+}
+
+.empresa-texto p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.empresa-info {
+    flex: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.empresa-info div {
+    flex: 1;
+    min-width: 130px;
+    background-color: #f3f6f8;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.empresa-info strong {
+    display: block;
+    color: #184f7a;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+.servicos {
+    background-color: #f4f4f4;
+}
+
+.servicos h2,
+.beneficios h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 245px;
+    background-color: white;
+    padding: 30px 22px;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+}
+
+.icone {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.card h3 {
+    color: #184f7a;
+    margin-bottom: 12px;
+}
+
+.card p {
+    line-height: 1.6;
+    color: #555555;
+}
+
+.beneficios {
+    background-color: #ffffff;
+}
+
+.lista-beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.beneficio {
+    width: calc(50% - 10px);
+    display: flex;
+    gap: 15px;
+    background-color: #eef7ee;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.beneficio > span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2f7c3b;
+}
+
+.beneficio h3 {
+    color: #184f7a;
+    margin-bottom: 8px;
+}
+
+.beneficio p {
+    line-height: 1.5;
+}
+
+.chamada {
+    background-color: #184f7a;
+    color: white;
+    text-align: center;
+}
+
+.chamada h2 {
+    color: white;
+}
+
+.chamada p {
+    font-size: 19px;
+}
+
+.botao-claro {
+    background-color: white;
+    color: #184f7a;
+}
+
+.contato {
+    background-color: #edf4f8;
+}
+
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.contato-info,
+.formulario {
+    flex: 1;
+}
+
+.contato-info > p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.dados p {
+    margin-bottom: 12px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.formulario button {
+    margin-top: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e98b18;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .faixa {
+        padding: 55px 0;
+    }
+
+    .inicio {
+        min-height: 430px;
+    }
+
+    .inicio h2 {
+        font-size: 32px;
+    }
+
+    .inicio p {
+        font-size: 17px;
+    }
+
+    .empresa .container {
+        flex-direction: column;
+    }
+
+    .empresa-texto {
+        text-align: center;
+    }
+
+    .empresa-info {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .lista-beneficios {
+        flex-direction: column;
+    }
+
+    .beneficio {
+        width: 100%;
+    }
+
+    .contato-container {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .contato-info {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
